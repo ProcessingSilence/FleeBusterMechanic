@@ -17,13 +17,15 @@ public class SceneCycler : MonoBehaviour
 
     // maxTime used in editor to place wait time amount,
     // currentTime sets bar size and determines time left.
-    public float maxTime, currentTime;
+    public float currentTime;
+    private float maxTime;
 
     public GameObject canvasObj;
     // Start is called before the first frame update
     void Awake()
     {
         currentScene = cycledScenes[sceneIteration];
+        maxTime = currentTime;
         FindPlayer();
         // Destroy self if there's already a scenecycler in place.
         var findOther = GameObject.FindWithTag("SceneCycler");
@@ -95,12 +97,14 @@ public class SceneCycler : MonoBehaviour
                 sceneIteration = 0;
                 //playerPos[cycledScenes.Length] = Player[cycledScenes.Length].transform.position;
                 Player[cycledScenes.Length].SetActive(false);
+                Debug.Log("Scene going above, cycle restarted to " + sceneIteration);
             }
             else
             {
                 //playerPos[sceneIteration] = Player[sceneIteration].transform.position;
                 Player[sceneIteration].SetActive(false);
                 sceneIteration += 1;
+                Debug.Log("Scene iterated to " + sceneIteration);
             }
         }
     }

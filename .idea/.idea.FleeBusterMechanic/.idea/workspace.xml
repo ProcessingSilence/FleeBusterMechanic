@@ -28,23 +28,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneCycler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="928">
-              <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+            <state relative-caret-position="1024">
+              <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
               <folding>
-                <marker date="1598562330103" expanded="false" signature="6:135" ph="..." />
-                <marker date="1598562330103" expanded="true" signature="177:3924" ph="{...}" />
-                <marker date="1598562330103" expanded="true" signature="433:544" ph="/* maxTime used in editor to place wait time amount, ... */" />
-                <marker date="1598562330103" expanded="true" signature="687:1196" ph="{...}" />
-                <marker date="1598562330103" expanded="true" signature="1254:1888" ph="{...}" />
-                <marker date="1598562330103" expanded="true" signature="1560:1882" ph="{...}" />
-                <marker date="1598562330103" expanded="true" signature="2035:2797" ph="{...}" />
-                <marker date="1598562330103" expanded="true" signature="2230:2425" ph="{...}" />
-                <marker date="1598562330103" expanded="true" signature="2550:2791" ph="{...}" />
-                <marker date="1598562330103" expanded="true" signature="2954:3922" ph="{...}" />
-                <marker date="1598562330103" expanded="true" signature="3040:3200" ph="{...}" />
-                <marker date="1598562330103" expanded="true" signature="3353:3916" ph="{...}" />
-                <marker date="1598562330103" expanded="true" signature="3453:3678" ph="{...}" />
-                <marker date="1598562330103" expanded="true" signature="3695:3906" ph="{...}" />
+                <marker date="1598563064402" expanded="false" signature="6:135" ph="..." />
+                <marker date="1598563064402" expanded="true" signature="177:4125" ph="{...}" />
+                <marker date="1598563064402" expanded="true" signature="433:544" ph="/* maxTime used in editor to place wait time amount, ... */" />
+                <marker date="1598563064402" expanded="true" signature="705:1245" ph="{...}" />
+                <marker date="1598563064402" expanded="true" signature="1303:1937" ph="{...}" />
+                <marker date="1598563064402" expanded="true" signature="1609:1931" ph="{...}" />
+                <marker date="1598563064402" expanded="true" signature="2084:2846" ph="{...}" />
+                <marker date="1598563064402" expanded="true" signature="2279:2474" ph="{...}" />
+                <marker date="1598563064402" expanded="true" signature="2599:2840" ph="{...}" />
+                <marker date="1598563064402" expanded="true" signature="3003:4123" ph="{...}" />
+                <marker date="1598563064402" expanded="true" signature="3089:3249" ph="{...}" />
+                <marker date="1598563064402" expanded="true" signature="3402:4117" ph="{...}" />
+                <marker date="1598563064402" expanded="true" signature="3502:3813" ph="{...}" />
+                <marker date="1598563064402" expanded="true" signature="3830:4107" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -141,12 +141,12 @@
       <updated>1598532093323</updated>
       <workItem from="1598532094813" duration="7000" />
       <workItem from="1598532108256" duration="5260000" />
-      <workItem from="1598538839625" duration="2616000" />
+      <workItem from="1598538839625" duration="3649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7883000" />
+    <option name="totallyTimeSpent" value="8916000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -245,23 +245,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneCycler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+        <state relative-caret-position="1024">
+          <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
           <folding>
-            <marker date="1598562330103" expanded="false" signature="6:135" ph="..." />
-            <marker date="1598562330103" expanded="true" signature="177:3924" ph="{...}" />
-            <marker date="1598562330103" expanded="true" signature="433:544" ph="/* maxTime used in editor to place wait time amount, ... */" />
-            <marker date="1598562330103" expanded="true" signature="687:1196" ph="{...}" />
-            <marker date="1598562330103" expanded="true" signature="1254:1888" ph="{...}" />
-            <marker date="1598562330103" expanded="true" signature="1560:1882" ph="{...}" />
-            <marker date="1598562330103" expanded="true" signature="2035:2797" ph="{...}" />
-            <marker date="1598562330103" expanded="true" signature="2230:2425" ph="{...}" />
-            <marker date="1598562330103" expanded="true" signature="2550:2791" ph="{...}" />
-            <marker date="1598562330103" expanded="true" signature="2954:3922" ph="{...}" />
-            <marker date="1598562330103" expanded="true" signature="3040:3200" ph="{...}" />
-            <marker date="1598562330103" expanded="true" signature="3353:3916" ph="{...}" />
-            <marker date="1598562330103" expanded="true" signature="3453:3678" ph="{...}" />
-            <marker date="1598562330103" expanded="true" signature="3695:3906" ph="{...}" />
+            <marker date="1598563064402" expanded="false" signature="6:135" ph="..." />
+            <marker date="1598563064402" expanded="true" signature="177:4125" ph="{...}" />
+            <marker date="1598563064402" expanded="true" signature="433:544" ph="/* maxTime used in editor to place wait time amount, ... */" />
+            <marker date="1598563064402" expanded="true" signature="705:1245" ph="{...}" />
+            <marker date="1598563064402" expanded="true" signature="1303:1937" ph="{...}" />
+            <marker date="1598563064402" expanded="true" signature="1609:1931" ph="{...}" />
+            <marker date="1598563064402" expanded="true" signature="2084:2846" ph="{...}" />
+            <marker date="1598563064402" expanded="true" signature="2279:2474" ph="{...}" />
+            <marker date="1598563064402" expanded="true" signature="2599:2840" ph="{...}" />
+            <marker date="1598563064402" expanded="true" signature="3003:4123" ph="{...}" />
+            <marker date="1598563064402" expanded="true" signature="3089:3249" ph="{...}" />
+            <marker date="1598563064402" expanded="true" signature="3402:4117" ph="{...}" />
+            <marker date="1598563064402" expanded="true" signature="3502:3813" ph="{...}" />
+            <marker date="1598563064402" expanded="true" signature="3830:4107" ph="{...}" />
           </folding>
         </state>
       </provider>
