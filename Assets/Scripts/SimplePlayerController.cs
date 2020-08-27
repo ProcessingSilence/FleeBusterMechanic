@@ -31,5 +31,12 @@ public class SimplePlayerController : MonoBehaviour
             rb2d.AddForce(Vector2.right * moveSpeed);
         else
             rb2d.velocity = new Vector2(0, rb2d.velocity.y);
+
+        // Fall death.
+        if (transform.position.y < -5)
+        {
+            rb2d.velocity = new Vector2(0,0);
+            transform.position = new Vector2(0,2);
+        }
     }
 }

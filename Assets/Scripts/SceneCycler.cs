@@ -108,4 +108,24 @@ public class SceneCycler : MonoBehaviour
             }
         }
     }
+
+    void FindAndDestroy(GameObject objSlotCheck, string objTag)
+    {
+        var findObj = GameObject.FindWithTag(objTag);
+        // Destroy other player if there's already an obj in iterated array slot.
+        if (objSlotCheck)
+        {
+            Destroy(findObj);
+            Player[sceneIteration].SetActive(true);
+            Debug.Log("Player clone deleted, Player " + sceneIteration + " reactivated.");
+        }
+            
+        // Else, place detected player in iterated array slot; set it to not be destroyed on load.
+        else
+        {
+            Player[sceneIteration] = findObj;
+            DontDestroyOnLoad(Player[sceneIteration]);
+            Debug.Log("No player clone detected, current played has been placed in Player [" + sceneIteration + "]");
+        }
+    }
 }
